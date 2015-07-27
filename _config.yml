@@ -1,0 +1,25 @@
+# Site settings
+
+# Defaults provided by github, here for documentation's sake
+highlighter: pygments
+# github: [Repository metadata]
+
+# Github forces these on us
+# Put here so running locally is consistent
+safe: true
+lsi: false
+# source: your top-level directory
+
+title: Just ThisGuy
+email: travis@thisguy.codes
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://conslo.github.io" # the base hostname & protocol for your site
+twitter_username: conslo
+github_username:  conslo
+
+# Build settings
+markdown: kramdown
