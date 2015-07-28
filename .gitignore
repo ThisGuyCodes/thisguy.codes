@@ -14,3 +14,6 @@
 
 # sftp configuration file
 sftp-config.json
+
+###Hugo###
+public/

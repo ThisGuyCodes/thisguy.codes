@@ -1,0 +1,9 @@
+baseurl: "http://conslo.github.io/"
+languageCodexr: "en-us"
+title: "ThisGuy"
+theme: "hyde"
+params:
+    themeColor: "theme-base-0d"
+    description: >
+        I like code, fault toleance, metrics, monitoring, and not waking up at
+        2am.
