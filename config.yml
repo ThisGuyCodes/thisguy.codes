@@ -2,6 +2,7 @@ baseurl: "http://thisguy.codes/"
 languageCodexr: "en-us"
 title: "ThisGuy"
 theme: "hyde"
+MetaDataFormat: "yaml"
 params:
     themeColor: "theme-base-0d"
     description: >
