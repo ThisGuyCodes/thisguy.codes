@@ -6,5 +6,16 @@ api_version: go1
 default_expiration: 10m
 
 handlers:
+  # index files
+  - url: /(.+)/
+    static_files: hugo/public/\1/index.html
+    upload: hugo/public/(.+)/index.html
+
+  # site root
+  - url: /
+    static_files: hugo/public/index.html
+    upload: hugo/public/index.html
+
+  # Everything else
   - url: /
     static_dir: hugo/public
