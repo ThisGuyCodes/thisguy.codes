@@ -15,8 +15,6 @@
 # sftp configuration file
 sftp-config.json
 
-###Hugo###
-public/
 # Created by https://www.gitignore.io
 
 ### Vim ###
@@ -58,4 +56,3 @@ _testmain.go
 ### AppEngine ###
 # Google App Engine generated folder
 appengine-generated/
-
