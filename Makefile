@@ -1,12 +1,8 @@
-build: clean
-	cd hugo
-	hugo
-	cd ..
-
-clean:
-	rm -rf hugo/public/
+build:
+	$(MAKE) -C hugo
 
 push: build
 	goapp deploy
-serve: clean
+
+serve: build
 	goapp serve
