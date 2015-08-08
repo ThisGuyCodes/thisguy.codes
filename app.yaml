@@ -1,0 +1,10 @@
+application: thisguy
+version: 1
+runtime: go
+api_version: go1
+
+default_expiration: 10m
+
+handlers:
+  - url: /.*
+    static_dir: hugo/public
