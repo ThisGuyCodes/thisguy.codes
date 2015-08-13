@@ -3,3 +3,6 @@ build: clean
 
 clean:
 	rm -rf public/
+
+serve: clean
+	hugo server --buildDrafts=true
